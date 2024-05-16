@@ -44,7 +44,7 @@ fs.readdir('./handlers', (err, file) => {
     require(`./handlers/${main}`)
   }
 })
-mg.connect(process.env.MONGO);
+mg.connect(process.env.MONGO); //Token mongo no .env
 mg.connection.on('connected', () => {
   console.log('Conexão com o MongoDB estabelecida com sucesso.');
 });
@@ -58,7 +58,7 @@ client.once("ready", () => {
   }, 60000);
 });
 
-client.login(process.env.TOKEN); //Token no arquivo .env mel!
+client.login(process.env.TOKEN); //Token no arquivo .env
 
 process.on("unhandRejection", (reason, promise) => console.log(reason));
 process.on("uncaughtException", (error, origin) => console.log(error, origin));
