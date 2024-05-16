@@ -10,4 +10,4 @@ Bot para discord feito de JavaScript usando discord.js na versão v14 - Bot usa 
 O motivo do “vazamento” é o dono do bot aescolhida_. (1148575199269228655) hackeou meu bot Star Gaby, que estava em +600 servidores e está criando notícias falsas sobre mim e meu amigo após hackear o bot.
 <br>
 Arquivos vazados por Henrii<3 <br> 
-More information about go to -> https://discord.gg/BTZQvr3PgH
+Mais informações sobre acesse -> https://discord.gg/BTZQvr3PgH
